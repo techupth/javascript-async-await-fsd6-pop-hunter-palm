@@ -35,10 +35,10 @@ let getJohnOrders = () => {
 // Start coding here
 async function resultJohn () {
   try{
-    const result1 = await getJohnProfile();
-      console.log(result1)
-    const result2 = await getJohnOrders();
-      console.log(result2)
+    const resultJohnProfile = await getJohnProfile();
+      console.log(resultJohnProfile)
+    const resultJohnOrders = await getJohnOrders();
+      console.log(resultJohnOrders)
     }catch (error) {
       console.log(error)
   }
